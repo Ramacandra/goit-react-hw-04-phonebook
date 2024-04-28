@@ -46,7 +46,7 @@ export function App() {
     setContacts(getContacts());
   }, []);
 
-  useEffect(() => {}, [contacts]);
+  useEffect(() => { }, [contacts]);
 
   return (
     <div className="app">
